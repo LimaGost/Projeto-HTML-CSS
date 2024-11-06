@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Pilres</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body>
+    <header>
+        <div class="inicio">
+            <h1><img src="img/logo.png" alt="Logo da Barbearia Alura"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos_pilares.html">Produtos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="iput-padrao" required>
+
+            <label for="Email">Email</label>
+            <input type="text" id="Email" class="iput-padrao" required placeholder="Email@dominio.com">
+        
+            <label for="Telefone">Telefone</label>
+            <input type="text" id="Telefone" class="iput-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="MensageM">Mensagem</label>
+            <textarea cols="60" rows="10" id="Mensagem"></textarea class="iput-padrao" required>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" > adasdasdasdad
+                Email</label>
+        
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio"name="contato" value="whatsapp" id="radio-whatsapp" checked> 
+                Whatsapp</label>
+            </fieldset>
+
+          <fieldset> 
+            <select>
+                <legend>Qual periodo você gostaria de ser atendido?</legend> 
+                
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+          </fieldset> 
+
+           <label>
+                <input type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?
+            </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+            
+        </form>
+        <table>
+            <thead>
+                <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+
+                </tr>
+                <tr>
+                    <td>Quarte</td>
+                    <td>8h ~ 20h</td>
+
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+
+                </tr>
+        </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="Logo da Barbeareia Alura">
+        <p class="Copyright"> &copy; Copyright Barbearia Pilares - 2022
+    </footer>
+</body>
+
+</html>
